@@ -72,35 +72,3 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 /*--------------------*/
-.wrapper {
-  min-height: 100%;
-  display: flex;
-  overflow: hidden;
-}
-.wrapper .container {
-  min-width: 1000px;
-  margin: 0 auto;
-  display: flex;
-  justify-content: center;
-  align-items: center;
-}
-.wrapper .container .btn {
-  position: relative;
-  top: 0;
-  width: 250px;
-  height: 50px;
-  background: #CC2EFA;
-  border-radius: 15px;
-  box-shadow: 0px 4px 0px 0px #d875f6;
-  transition-duration: 0.2s;
-}
-.wrapper .container .btn .btn__link {
-  font-family: Arial, Helvetica, sans-serif;
-  color: #fff;
-  font-size: 20px;
-}
-.wrapper .container .btn:hover {
-  top: 2px;
-  background: #9c0dc7;
-  box-shadow: 0px 3px 0px 0px #c835f5;
-}
